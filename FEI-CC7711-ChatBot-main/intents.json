@@ -1,0 +1,62 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Olá","Ola","Opa","Oi", "tudo bem", "bom dia", "boa noite", "boa tarde"],
+    "responses": ["Oi","Ola"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","tks", "Falou"],
+    "responses": ["Ate breve","Falou"]
+  },
+  { "tag": "data_bancas",
+    "patterns":["Quando sera a banca?","A banca será em que dia?", "bancas"],
+    "responses": ["Na semana do dia 19 de Junho sera a apresentacao da monografia e a banca final na ultima semana de novembro"]
+  },
+  {
+    "tag": "funcionamento_banca",
+    "patterns": ["Como funciona o dia da apresentação?", "Como é feita a apresentação para a banca?", "Como as bancas funcionam?"],
+    "responses": ["Seu grupo tera 10 minutos de apresentacao e a banca tera um tempo indeterminado para possiveis duvidas e complementos."]
+  },
+  {
+    "tag": "monografia",
+    "patterns":["Como deve ser a monografia?", "O que a monografia deve conter?", "monografia"],
+    "responses": [" - Uma introducao e objetivos do trabalho \n - conceituacao do problema \n - revisao da literatura, que pode incluir um benchmark de solucoes de mercado \n - desenvolvimento de arquitetura de solucao, engenharia de software e demais tecnicas que descrevam a solucao proposta \n - discussao dos resultados e consideracoes finais"]
+  },
+  {
+    "tag": "integrantes_grupos",
+    "patterns": ["Quantos integrantes tem o grupo?", "Quantas pessoas tem o grupo?", "Até quantos pode ser os grupos?"],
+    "responses": ["4 Integrantes e o ideal", "os grupos devem buscar ter 4 integrantes"]
+  },
+  {
+    "tag": "funcao_orientador",
+    "patterns": ["Qual a função do orientador?", "O que o professor orientador faz?"],
+    "responses": ["O professor orientador tem a funcao de conduzir o desenvolvimento do trabalho, com pelo menos uma reuniao semanal com o grupo, auxiliar os alunos nos metodos de pesquisa e na busca de resultados e refletir sobre eles. Alem disso, ele deve assegurar que os alunos estao cumprindo as atividades (entregas no Moodle), e tambem informar o professor da disciplina eventuais desvios e problemas."]
+  },
+  {
+    "tag": "objetivos_materia",
+    "patterns": ["Quais os objetivos da matéria?", "O que fazemos nesta matéria?", "Quais os objetivos da matéria?", "TCC 1"],
+    "responses": ["A materia tem como objetivo principal, exercitar a capacidade dos estudantes e em desenvolver uma solucao computacional que utilize os conhecimentos acumulados durante o curso, tendo como base um metodo cientifico."]
+  },
+  {
+    "tag": "entregas",
+    "patterns": ["Quais as entregas que devemos fazer durante o semestre?", "O que deve ser entregue durante o curso?", "Entregas"],
+    "responses": ["Espera-se como resultado final do TCC uma monografia e um programa ou artefato desenvolvido pelos alunos"]
+  },
+  {
+    "tag": "funcao_professor_disciplina",
+    "patterns": ["Qual a função do professor da disciplina?", "O que o professor professor da disciplina faz?"],
+    "responses": ["O professor da disciplina tem a funcao de apresentar semanalmente topicos relevantes sobre metodologia cientifica e organizacao do trabalho, tambem acompanhar a evolucao de cada grupo, validar as entregas no MOODLE e tambem informar o professor orientador de eventuais desvios e problemas."]
+  },
+  {
+    "tag": "avaliacao",
+    "patterns": ["Como será os critérios de avaliação", "Vai ter prova na disciplina?", "Qual a dinâmica de avaliação?", "Essa matéria tem prova?","Como seremos avaliados?"],
+    "responses": ["Os alunos teram 2 semestres para desenvolver todas as atividades relacionadas ao trabalho e no final de cada semestre serao avaliados por uma banca de professores. A banca avaliara a monografia e a solucao implementada."]
+  },
+  {
+    "tag": "informacoes",
+    "patterns": ["Onde posso ter mais informações sobre a matéria?", "Ajuda", "Suporte", "informacoes"],
+    "responses": ["Para informacoes mais detalhadas, o conteudo completo das aulas, alem do cronograma do curso e de entregas estao disponiveis no moodle. Em caso de outras duvidas, entrar em contanto com o professor da disciplina pelo email ou grupo de WhatsApp"]
+  }
+
+
+]
+}
